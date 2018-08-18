@@ -1,0 +1,23 @@
+{
+	"name": "photocat",
+	"description": "An Electron app for cataloging photographs",
+	"version": "0.1.0",
+	"license": "none",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "webpack --progress --colors --hide-modules",
+		"start": "electron ."
+	},
+	"dependencies": {
+		"@material-ui/core": "^1.5.0",
+		"electron": "^2.0.7"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-preset-env": "^1.7.0",
+		"webpack": "^4.16.5",
+		"webpack-cli": "^3.1.0"
+	}
+}
